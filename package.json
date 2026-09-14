@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "My first Playwright homework project for testing the Coffee Cards website",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test"
+  },
   "keywords": [
     "playwright",
     "e2e",

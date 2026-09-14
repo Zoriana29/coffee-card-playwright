@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('should preserve entered name and email in the payment form', async ({ page }) => {
-  await page.goto('https://coffee-cart.app/');
+  await page.goto('/');
   await page.locator('[data-test="Espresso"]').click();
   await page.locator('[data-test="checkout"]').click();
   await page.getByRole('textbox', { name: 'Name' }).fill('Zoriana');
