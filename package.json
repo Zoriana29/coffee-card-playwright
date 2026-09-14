@@ -1,0 +1,22 @@
+{
+  "name": "coffee.card.playwright",
+  "version": "1.0.0",
+  "description": "My first Playwright homework project for testing the Coffee Cards website",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "playwright",
+    "e2e",
+    "testing",
+    "coffee",
+    "cards",
+    "automation",
+    "homework"
+  ],
+  "author": "Zoriana Dykunska",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.5.1"
+  }
+}
